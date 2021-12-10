@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+button{
+    outline: none;
+    border: none;
+    background: none;
+
+}
+.main{
+    position: absolute;
+    width: 1920px;
+    height: 862px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+}
+.container{
+    position: absolute;
+    width: 580px;
+    height: 523px;
+    left: 370px;
+    top: 170px;
+}
+h1 span{
+    color: #FBB731;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    display: block;
+    margin-bottom: 10px;
+    font-family: Nunito Sans;
+    font-style: normal;
+}
+.name{
+    color: #FAF9F9;
+    font-size: 120px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 120px;
+    margin-bottom: 40px;
+    font-family: Nunito Sans;
+    font-style: normal;
+}
+.description{
+    color: #DEDEDE;
+    font-family: 'Lato', sans-serif;
+    font-size: 19px;
+    line-height: 1.4;
+    margin-bottom: 42px;
+    
+}
+.buy{
+    color: #1E2F40;
+    background-color: #FBB731;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 20px 45px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Nunito Sans;
+    font-style: normal;    
+}
+.visual {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.bg {
+    position: absolute;
+    height: 862px;
+    left: 1118px;
+    width: 432px;
+    top: 0px;
+    background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+}
+.Burger {
+    position: absolute;
+    width: 829px;
+    height: 861px;
+    left: 890px;
+    top: 1px;
+}
+
+
+
+.banner1{
+    position: absolute;
+    width: 580px;
+    height: 395px;
+    top: 1048px;
+    left: 360px;
+    background: url(bacon-cheese-burger-with-beef-patty-tomato-onion-P2N635W.jpg);
+}
+.Burger-discount{
+    width: 580px;
+    height: 395px;
+}
+.case1{
+    top: 116px;
+    left: 50px;
+    width: 378px;
+    height: 163px;
+    position: absolute;
+    display: block;
+}
+
+.button1{
+    color: #FFFFFF;
+    background-color: #F37335;
+    border-radius: 14px;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 6px 18.23px 4px;
+    font-family: Nunito Sans;
+    font-weight: 900;
+    height: 18px;
+    width: 65.42px;
+    border: 0px;
+}
+.case1 h1{
+    color: #FFFFFF;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 76px;
+    text-transform: uppercase;
+    height: 76px;
+    margin-bottom: 8px;
+}
+.case1 h2{
+    color: #000000;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+
+
+.banner2{
+    position: absolute;
+    width: 580px;
+    height: 395px;
+    left: 960px;
+    top: 1048px;
+    background: url(fresh-tasty-burger-PTESKZ7.jpg);
+    
+}
+.Burger-free{
+    width: 580px;
+    height: 395px;
+}
+.case2{
+    width: 353px;
+    height: 192px;
+    top: 102px;
+    left: 50px;
+    position: absolute;
+}
+.case2 h1{
+    color: #FFFFFF;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 56px;
+    height: 56px;
+    margin-bottom: 10px;
+    
+}
+.case2 h2{
+    color: #FAF9F9;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    height: 48px;
+   margin-bottom: 20px;
+}
+.case2 a{
+    color: #1E2F40;
+    background-color: #FBB731;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 20px 45px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+}
+
+
+footer{
+    position: absolute;
+    width: 1920px;
+    height: 403px;
+    top: 1628px;
+    left: 0px;
+    background: #1E2F40;
+}
+.photo{
+    position: absolute;
+    left: 370px;
+    top: 117px;
+    width: 63px;
+    height: 56px;
+
+    background: url(Logo_light.png);
+}
+
+
+.menu{
+    width: 284px;
+    height: 186px;
+    top: 111px;
+    left: 567px;
+    position: absolute;
+}
+.menu h4{
+    color: #FFFFFF;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 38px;
+    height: 38px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    margin-left: 2px;
+}
+
+.menu a{
+    color: #DEDEDE;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 9px;
+    display: block;
+    height: 24px;
+    margin-left: 2.14px;
+}
+
+.information{
+    width: 284px;
+    height: 186px;
+    top: 111px;
+    left: 944px;
+    position: absolute;
+    
+}
+.information h1{
+    color: #FFFFFF;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 38px;
+    height: 38px;
+    text-transform: uppercase;
+    margin-left: 2px;
+}
+.information h2{
+    color: #DEDEDE;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    height: 24px;
+    margin-bottom: 2px;
+    display: block;
+    margin-left: 1.83px;
+}
+.information h3{
+    color: #FAF9F9;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    height: 48px;
+    margin-bottom: 12px;
+    display: inline-block;
+    margin-left: 2px;
+}
+
+
+.phone{
+    width: 194px;
+    height: 139px;
+    position: absolute;
+    top: 113px;
+    left: 1354px;
+}
+.phone a{
+    color: #FBB731; 
+    text-decoration: none;
+    display: block;
+    margin-bottom: 2px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 38px;
+    height: 36px;
+    margin-left: 16px;
+}
