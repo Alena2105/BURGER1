@@ -9,19 +9,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Nunito+Sans:wght@700;800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/BURGERS/main/style.css">
+    <link rel="stylesheet" href="../BURGERS/main/style.css">
     <title>Document</title>
 
 </head>
 
 <body>
-    <div class="main">
-        <div class="content">
+    <header class="header">
+        <div class="container">
             <h1 class="name">
                 <span>работаем с 11:00 до 22:00</span>
                 Лучшие бургеры
             </h1>
-            <p class="description"> Закажи наши фирменные бурегры или собери что-то своё, <br> а наши курьеры доставят
+            <p class="description"> Закажи наши фирменные бурегры или собери что-то своё, <br> а наши курьеры
+                доставят
                 за 30 минут</p>
             <button><a class="buy" href="#">заказать</a></button>
         </div>
@@ -29,57 +30,43 @@
             <div class="bg"></div>
             <img class="Burger" src="image/burger.png">
         </div>
-    </div>
-
-    <div>
+    </header>
+    <main>
+        <img class="Burger-discount" src="image/bacon-cheese-burger-with-beef-patty-tomato-onion-P2N635W.png">
+        <img class="Burger-free" src="image/fresh-tasty-burger-PTESKZ7.png">
         <div class="case1">
-            <img class="Burger-discount" src="image/bacon-cheese-burger-with-beef-patty-tomato-onion-P2N635W.jpg">
-            <div>
-                <button><a href="#">скидка</a></button>
-                <h1>-20%</h1>
-                <h6>При заказе на 3х и более персон мы делаем скидки, <br> а также предоставляем скидки именинникам</h6>
-            </div>
+            <button><a class="button1" href="#">скидка</a></button>
+            <h1>-20%</h1>
+            <p>При заказе на 3х и более персон мы делаем скидки, <br> а также предоставляем скидки именинникам
+            </p>
         </div>
-
-
         <div class="case2">
-            <img class="Burger-free" src="image/fresh-tasty-burger-PTESKZ7.jpg">
-            <div>
-                <h1>Бесплатно</h1>
-                <h6>При заказе на сумму 500 рублей и более - доставляем бесплатно</h6>
-                <button><a href="#">заказать</a></button>
-            </div>
+            <h1>Бесплатно</h1>
+            <p>При заказе на сумму 500 рублей и более - <br> доставляем бесплатно</p>
+            <button><a class="button2" href="#">заказать</a></button>
         </div>
-    </div>
-    </div>
-
-</body>
-<footer>
-    
-        <div class="image">
-            <div class="orange"></div>
-            <img class="photo" src="image/Shape.jpg">
-        </div>
-        <div>
+    </main>
+    <footer>
+        <img class="photo" src="image/Logo_light.png">
+        <div class="menu">
             <h4>основные ссылки</h4>
             <a href="">Меню</a>
             <a href="">Заказ и Доставка</a>
             <a href="">Методы оплаты</a>
             <a href="">Контакты</a>
         </div>
-        <div>
-            <h4>основная информация</h4>
-            <h6>Время</h6>
-            <h6>ПН - ВС
-                11:00 - 22:00 без перерывов</h6>
-            <h6>Адрес</h6>
-            <h6>Москва, ул. Тверская, 5, вход со двора</h6>
+        <div class="information">
+            <h1>основная информация</h1>
+            <h2>Время</h2>
+            <p>ПН - ВС <br> 11:00 - 22:00 без перерывов</p>
+            <h2>Адрес</h2>
+            <p>Москва, ул. Тверская, 5, вход со двора</p>
         </div>
-        <div>
-            <h6>+ 7 900 787 13-13</h6>
-            <h6>+ 7 900 700 14-14</h6>
+        <div class=phone>
+            <a href="tel:+79007871313"> + 7 900 787 13-13</a>
+            <a href="tel:+79007001414">+ 7 900 700 14-14</h6>
         </div>
-    
-</footer>
+    </footer>
+</body>
 
 </html>
