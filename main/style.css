@@ -6,9 +6,8 @@ button{
     outline: none;
     border: none;
     background: none;
-
 }
-.main{
+.header{
     position: absolute;
     width: 1920px;
     height: 862px;
@@ -49,7 +48,6 @@ h1 span{
     font-size: 19px;
     line-height: 1.4;
     margin-bottom: 42px;
-    
 }
 .buy{
     color: #1E2F40;
@@ -86,15 +84,17 @@ h1 span{
     top: 1px;
 }
 
-
-
-.banner1{
-    position: absolute;
-    width: 580px;
+main{
+    width: 1180px;
     height: 395px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
     top: 1048px;
     left: 360px;
-    background: url(bacon-cheese-burger-with-beef-patty-tomato-onion-P2N635W.jpg);
+    background-image: url(bacon-cheese-burger-with-beef-patty-tomato-onion-P2N635W.jpg);
+    background-image: url(fresh-tasty-burger-PTESKZ7.jpg);
+    
 }
 .Burger-discount{
     width: 580px;
@@ -108,7 +108,6 @@ h1 span{
     position: absolute;
     display: block;
 }
-
 .button1{
     color: #FFFFFF;
     background-color: #F37335;
@@ -134,25 +133,13 @@ h1 span{
     height: 76px;
     margin-bottom: 8px;
 }
-.case1 h2{
-    color: #000000;
+.case1 p{
+    color: #FAF9F9;
     font-family: Lato;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-}
-
-
-
-.banner2{
-    position: absolute;
-    width: 580px;
-    height: 395px;
-    left: 960px;
-    top: 1048px;
-    background: url(fresh-tasty-burger-PTESKZ7.jpg);
-    
 }
 .Burger-free{
     width: 580px;
@@ -162,7 +149,7 @@ h1 span{
     width: 353px;
     height: 192px;
     top: 102px;
-    left: 50px;
+    left: 650px;
     position: absolute;
 }
 .case2 h1{
@@ -174,9 +161,8 @@ h1 span{
     line-height: 56px;
     height: 56px;
     margin-bottom: 10px;
-    
 }
-.case2 h2{
+.case2 p{
     color: #FAF9F9;
     font-family: Lato;
     font-style: normal;
@@ -184,7 +170,7 @@ h1 span{
     font-size: 15px;
     line-height: 24px;
     height: 48px;
-   margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 .case2 a{
     color: #1E2F40;
@@ -200,7 +186,6 @@ h1 span{
     font-style: normal;
 }
 
-
 footer{
     position: absolute;
     width: 1920px;
@@ -215,10 +200,8 @@ footer{
     top: 117px;
     width: 63px;
     height: 56px;
-
     background: url(Logo_light.png);
 }
-
 
 .menu{
     width: 284px;
@@ -239,7 +222,6 @@ footer{
     margin-bottom: 12px;
     margin-left: 2px;
 }
-
 .menu a{
     color: #DEDEDE;
     font-family: Lato;
@@ -273,6 +255,7 @@ footer{
     height: 38px;
     text-transform: uppercase;
     margin-left: 2px;
+    margin-bottom: 12px;
 }
 .information h2{
     color: #DEDEDE;
@@ -286,7 +269,7 @@ footer{
     display: block;
     margin-left: 1.83px;
 }
-.information h3{
+.information p{
     color: #FAF9F9;
     font-family: Lato;
     font-style: normal;
@@ -299,13 +282,12 @@ footer{
     margin-left: 2px;
 }
 
-
 .phone{
-    width: 194px;
-    height: 139px;
+    width: 178px;
+    height: 75px;
     position: absolute;
     top: 113px;
-    left: 1354px;
+    left: 1370px;
 }
 .phone a{
     color: #FBB731; 
@@ -318,5 +300,4 @@ footer{
     font-size: 20px;
     line-height: 38px;
     height: 36px;
-    margin-left: 16px;
 }
